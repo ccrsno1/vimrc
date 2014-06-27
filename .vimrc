@@ -164,12 +164,17 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/.ycm_extra_conf.p
 " Used for taglist
 "
 nnoremap <silent> <F8> :TlistToggle<CR>
-let Tlist_Auto_Open = 1
+let Tlist_Auto_Open = 0
 let Tlist_Exit_OnlyWindow = 1
 let Tlist_Show_One_File = 1
 let Tlist_Enable_Fold_Column = 0
 let Tlist_Auto_Update = 1
-
+" Setting for winManager
+"
+let g:winManagerWindowLayout = "TagList|FileExplorer,BufExplorer"
+let g:persistentBehaviour = 0
+let g:winManagerWidth = 30
+map <F1> :WMToggle<CR>
 " Used for nerd-tree
 "
 map <F3> :NERDTreeMirror<CR>
