@@ -123,7 +123,7 @@ Plugin 'DoxygenToolkit.vim'
 Plugin 'a.vim'
 Plugin 'taglist.vim'
 Plugin 'bufexplorer.zip'
-Plugin 'winmanager'
+" Plugin 'winmanager'
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
@@ -169,19 +169,20 @@ let Tlist_Exit_OnlyWindow = 1
 let Tlist_Show_One_File = 1
 let Tlist_Enable_Fold_Column = 0
 let Tlist_Auto_Update = 1
-" Setting for winManager
-"
-let g:winManagerWindowLayout = "TagList|FileExplorer,BufExplorer"
-let g:persistentBehaviour = 0
-let g:winManagerWidth = 30
-map <F1> :WMToggle<CR>
+"" Setting for winManager
+""
+"let g:winManagerWindowLayout = "TagList|FileExplorer,BufExplorer"
+"let g:persistentBehaviour = 0
+"let g:winManagerWidth = 30
+"map <F1> :WMToggle<CR>
 " Used for nerd-tree
 "
 map <F3> :NERDTreeMirror<CR>
 map <F3> :NERDTreeToggle<CR>
 let g:NERDTreeMouseMode = 2
 let g:NERDTreeWinSize = 40
-
+let g:NERDTreeIgnore = ['\.vim$', '\~$']
+let g:NERDTreeShowHidden = 0
 "explorer mappings
 map <F2> :BufExplorer<CR>
 
