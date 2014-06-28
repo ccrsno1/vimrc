@@ -355,4 +355,8 @@ function! s:Median(nums)
     endif
 endfunction
 " Status bar setting end
-
+" Author info edited by Qinxu
+let g:vimrc_author='QinXu' 
+let g:vimrc_email='ccrsno1@zju.edu.cn'
+let g:vimrc_homepage=''
+nmap <F4> :AuthorInfoDetect<cr> 
