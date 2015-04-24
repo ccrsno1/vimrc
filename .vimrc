@@ -110,7 +110,6 @@ Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 
 " The following are examples of different formats supported.
